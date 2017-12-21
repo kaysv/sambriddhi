@@ -5,4 +5,6 @@ app_name = 'login'
 
 urlpatterns = [
     url(r'^$', views.homeView, name='HomeView'),
+    url(r'^login/$', views.loginView, name='LoginView'),
+    url(r'^logout/$', views.logoutView, name='LogoutView'),
 ]
